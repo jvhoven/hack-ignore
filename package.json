@@ -1,0 +1,22 @@
+{
+  "name": "hack-ignore",
+  "version": "1.0.0",
+  "description": "Simple module to read out and sort .gitignore files",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvhoven/hack-ignore.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    ".gitignore"
+  ],
+  "author": "Jeffrey van Hoven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jvhoven/hack-ignore/issues"
+  },
+  "homepage": "https://github.com/jvhoven/hack-ignore"
+}
