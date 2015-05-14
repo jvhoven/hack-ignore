@@ -1,5 +1,5 @@
 var assert = require("assert");
-var gitignore = require("../src/gitignore.js");
+var gitignore = require("../src/index.js");
 
 describe("gitignore utility functions", function() {
 	
@@ -19,7 +19,8 @@ describe("gitignore utility functions", function() {
 	
 	describe("sort()", function() {
 		it("should sort files and directories in two seperate arrays", function(done) {
-			gitignore.sort(function(directories, files) {
+			gitignore.sort(function(err, directories, files) {				
+				if(err) throw(err);
 				assert.equal(6, directories.length);
 				assert.equal(5, files.length);
 				done();
