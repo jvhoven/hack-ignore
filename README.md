@@ -16,6 +16,7 @@ gitignore.sort(function(err, directories, files) {
 	// directories are the directories inside your .gitignore
 	// files are the files inside your .gitignore
 })
+```
 
 ## Known problem
 
